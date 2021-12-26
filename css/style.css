@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outter-container{
+    background-color: black;
+    color: white;
+}
+.container{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.nav-container{
+    background-color:black;
+    color: white;
+}
+h1{
+    font-family: Shizuru;
+    margin-left: 5px;
+}
+.nav-content{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+}
+#sub-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Shizuru;
+}
+.sub-head{
+    text-align: center;
+}
+.tribute{
+
+}
+.tribute-icon{
+    border-radius: 10%;
+    height: 100px;
+}
+#main-grimes{
+    height: 400px;
+    border: white solid;
+}
+.body-container{
+
+}
+.body-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-content p{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.oblivion-audio{
+    margin-top: 10px;
+    text-align: right;
+    margin-right: 340px;
+}
+.mid-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#grimes-sub{
+    height: 400px;
+    border: white solid;
+}
+.audio{
+    margin-top: 5px;
+    text-align: right;
+    margin-right: 340px;
+}
+.mid-body p{
+    margin-left: 10px;
+}
+.eddie-morro{
+    height: 150px;
+    border-radius: 50%;
+    border: white solid;
+    transition: 1s ease-out;
+}
+.footer{
+    font-family: cursive;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Login_btn{
+    background-color: white;
+    font-family: cursive;
+    color: black;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: black solid;
+    cursor: pointer;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimes Tribute Page</title>
+</head>
+
+<body>
+    <div class="outter-container">
+        <div class="container">
+            <!--start of the nav bar-->
+            <div class="nav-container">
+                <div class="nav-content">
+                    <img class="tribute-icon" src="./imgs/musk-icon.jpg" alt="Grimes-Tribute-Icon">
+                    <h1 class="header">Grimes</h1>
+                </div>
+                <div class="sub-head">
+                    <div class="tribute">
+                        <span id="sub-header">Tribute Page</span>
+                        <button onclick="login(this)" type="button" class="Login_btn">Log In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end of nav bar-->
+        <!--Start of the body-->
+        <div class="body-container">
+            <div class="body-content">
+                <img id="main-grimes" src="./imgs/grimes-main.jpg" alt="grimes-photo">
+                <p> Press play to play, Grimes-"Oblivion"</p>
+            </div>
+            <div class="oblivion-audio">
+                <audio controls autoplay muted>
+                    <source src="./audio/Grimes-Oblivion.mp3" type="audio/ogg">
+                </audio>
+            </div>
+            <div class="mid-body">
+                <img id="grimes-sub" src="./imgs/grimes-sub.png" alt="grimes-photo">
+                <p>Press play to play, Grimes- "Kill-V-Main"</p>
+            </div>
+            <div class="audio">
+                <audio controls autoplay muted>
+                    <source src="./audio/Grimes-Kill-V-Maim.mp3">
+                </audio>
+            </div>
+            <!--Dedicated to Eddie Morrow/Footer-->
+            <div class="footer">
+                <h3>This site is fuled by<br><br>Eddie Morro</h3>
+                <img class="eddie-morro" src="./imgs/background">
+                <p>"Where is my Pepsi?"</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
